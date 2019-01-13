@@ -11,7 +11,6 @@ class Singleton:
         return Singleton._single_instance
     
 if __name__ == "__main__":
-    # The result is same address
     instance1 = Singleton.get_single_instance()
     instance2 = Singleton.get_single_instance()
     print("instance1 = ", instance1)
